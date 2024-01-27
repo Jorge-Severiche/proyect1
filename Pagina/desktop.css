@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+    nav .desktop{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        pad: 0 20px;
+    }
+    nav .search{
+        width: 150px;
+        height: 25px;
+        font-size: 16px;
+    }
+    nav .desktop .primary,
+    nav .desktop .secundary{
+        display: flex;
+        align-items: center;
+    }
+    nav .desktop .mini{
+        display: none;
+    }
+    nav .mobile{
+        display: none;
+    }
+    /* estilo tarjeas */
+    .cards{
+        display: flex;
+        width: 100%;
+        padding: 50px;
+        justify-content:space-evenly;
+    }
+    .cards .card .header{
+        flex: 1;
+    }
+    .element-1:hover,
+    .element-2:hover{
+    margin-left: -130;
+    }
+    /* estilos de la tabla */
+    table{
+        border-spacing: 0;
+        border-collapse: collapse;
+        width: 800px;
+        margin: 100px  auto;
+    } 
+    td,th{
+        border: solid 3px black;
+        padding: 5px;
+    }  
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    @media (min-width:1280px){
+        nav .desktop{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            pad: 0 20px;
+        }
+        nav .search{
+            width: 150px;
+            height: 25px;
+            font-size: 16px;
+        }
+        nav .desktop .primary,
+        nav .desktop .secundary{
+            display: flex;
+            align-items: center;
+        }
+        nav .desktop .mini{
+            display: none;
+        }
+        nav .mobile{
+            display: none;
+        }
+        /* estilo tarjeas */
+        .cards{
+            display: flex;
+            width: 100%;
+            padding: 50px;
+            justify-content:space-evenly;
+        }
+        .cards .card .header{
+            flex: 1;
+        }
+        .element-1:hover,
+        .element-2:hover{
+        margin-left: -130;
+        }
+        /* estilos tabla */
+        table{
+            border-spacing: 0;
+            border-collapse: collapse;
+            width: 800px;
+            margin: 100px  auto;
+        } 
+        td,th{
+            border: solid 3px black;
+            padding: 5px;
+        }  
+        #Tabla tr:nth-of-type(2n){
+            background-color: #eee;
+        }
+    }    

@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+    nav .search{
+        width: 150px;
+        height: 25px;
+        font-size: 16px;
+    }
+    nav .logo{
+        min-width: 100px;
+    }
+    nav .mobile{
+        display: none;
+    }
+    nav .desktop{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav .desktop .primary{
+        display: flex;
+        align-items: center;
+    }
+    nav .desktop .secundary{
+        display: none;
+    }
+    nav .desktop .mini .Submenu{
+        background-color: black;
+        position: absolute;
+        display: none;
+        width: 200px;
+        right: 0;
+
+    }
+    nav .mini:hover .Submenu{
+        display: block;
+    }
+    table{
+        border-spacing: 0;
+        border-collapse: collapse;
+        width: 800px;
+        margin: 100px  auto;
+    } 
